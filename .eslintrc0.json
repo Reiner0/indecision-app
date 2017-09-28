@@ -6,6 +6,8 @@
         "node": true
     },
     "extends": [
+      "airbnb",
+      "plugin:jsx-a11y/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -23,6 +25,7 @@
         "valid-typeof": "warn"
     },
     "plugins": [
-        "react"
+        "react",
+        "jsx-a11y"
         ]
 }
