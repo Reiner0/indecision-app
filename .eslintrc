@@ -6,7 +6,10 @@
         "node": true
     },
     "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -14,6 +17,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "strict": 0,
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
         "no-undef": "warn",
